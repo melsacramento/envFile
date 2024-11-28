@@ -4,3 +4,5 @@ services:
   image: nats
   env_file:
    - subdirectory/stack-sub-directory.env
+  environment:
+   - ${ENV:-hello}=hi

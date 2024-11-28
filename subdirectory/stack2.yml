@@ -4,5 +4,3 @@ services:
   image: nats
   env_file:
    - ../deep-directory/deep-directory/deep-directory/deep-directory/deep-directory/stack.env
-  environment:
-   - ${ENV:-hello}=hi

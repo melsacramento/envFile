@@ -1,0 +1,6 @@
+version: '3'
+services:
+ stack-yml:
+  image: nats
+  env_file:
+   - subdirectory/stack-sub-directory.env
